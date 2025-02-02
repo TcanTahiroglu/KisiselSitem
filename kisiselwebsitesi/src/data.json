@@ -1,0 +1,72 @@
+{
+  "user": [
+    {
+      "SiteSahibi": "Tahsin Can",
+      "age": 29,
+      "skills": [
+        {
+          "name": "JavaScript",
+          "icon": "fab fa-js"
+        },
+        {
+          "name": "Node.js",
+          "icon": "fab fa-node-js"
+        },
+        {
+          "name": "React",
+          "icon": "fab fa-react"
+        },
+        {
+          "name": "VS Code",
+          "icon": "fa-solid fa-code"
+        },
+        {
+          "name": "Redux",
+          "icon": "fab fa-reddit-alien"
+        },
+        {
+          "name": "Figma",
+          "icon": "fab fa-figma"
+        }
+      ],
+      "ProfilInfo": [
+        {
+      "DoğumTarihi" : "04.05.1995",
+      "Şehir": "istanbul",
+      "Eğitim" : "Afyon Kocatepe Üni.",
+      "Rol": "Frontend, UI"
+        }
+
+      ],
+      "baslikTr": "Ben bir Frontend Developerim...",
+      "aciklamaTr": "...mükemmel kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir ön uç ürünleri oluşturmayı seven kişi.",
+      "baslikeng": "I am a Frontend Developer...",
+      "aciklamaEng": "...who likes to craft solid and scalable frontend products with great user experiences.",
+      "profilTr" : "Profil",
+      "profilEng": "Profile",
+      "profileh1Tr":"Temel Bilgiler",
+      "profileh1Eng":"basic information",
+      "hakkımdaTr" :"hakkımda",
+      "hakkımdaBenTr": "Gelişim odaklı bir bakış açısına sahip, yeni beceriler edinmeye ve kendimi sürekli yeni zorluklarla geliştirmeye açık, gelecek vadeden bir full-stack geliştiriciyim. 1 yıl boyunca I.T olarak çalıştıktan sonra, çocukluk hayalimi gerçekleştirmeye karar vererek yazılım geliştirici olma yolunda adım attım. Front end, back end ve bilgisayar bilimi alanlarında kendimi geliştirmek amacıyla 6 ay süren yoğun Workintech full-stack geliştirme programını tamamladım.",
+      "hakkımdaEng": "Having a development-oriented perspective, seeking to acquire new skills and being open to constant new challenges, I am an up-and-coming full-stack developer. After working as an IT officer for 1 year, I decided to pursue my childhood dream and took steps towards becoming a software developer. To improve myself in the fields of front end, back end, and computer science, I completed the 6-month intensive Workintech full-stack development program.",
+      "hakkımdaBenEng" : "About Me",
+      "Projectsh1Tr" : "Projeler",
+      "Projectsh1Eng" : "Projects",
+      "Projects": [
+        {
+          "id": 1,
+          "name": "Örnek Proje1",
+          "description": "Örnek proje Hakkında",
+          "image": "/resimler/ornek.png"
+        },
+        {
+          "id": 2,
+          "name": "Örnek Proje2",
+          "description": "Örnek proje Hakkında",
+          "image": "/images/ornek.png"
+        }
+      ]
+
+    }
+  ]
+}
