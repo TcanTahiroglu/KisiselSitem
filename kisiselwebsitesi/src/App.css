@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+body.dark {
+  background-color: #111;
+  color: #fff;
+}
+
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+
 
 
 @media (prefers-reduced-motion: no-preference) {

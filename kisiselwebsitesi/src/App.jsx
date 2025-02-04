@@ -4,6 +4,9 @@ import Header from './components/Header'
 import Skills from './components/skills'
 import Profile from './components/profile'
 import Projects from './components/projects'
+import Footer from './components/footer'
+import { LanguageProvider } from './components/languageContext'
+import { ThemeProvider } from './components/ThemeContext'
 
 
 function App() {
@@ -11,10 +14,15 @@ function App() {
 
   return (
     <div>
+      <ThemeProvider>
+      <LanguageProvider>
 <Header />
 <Skills />
 <Profile />
 <Projects />
+<Footer />
+</LanguageProvider>
+</ThemeProvider>
     </div>
   )
 }

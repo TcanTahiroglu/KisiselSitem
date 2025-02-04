@@ -1,72 +1,74 @@
 {
-  "user": [
+  "profile": {
+    "name": "Tahsin Can",
+    "age": 29,
+    "email": "cantahiroglu73@gmail.com",
+    "birthDate": "04.05.1995",
+    "city": "İstanbul",
+    "education": "Afyon Kocatepe Üni.",
+    "role": "Frontend, UI",
+    "foto" : "../public/images/profile.png",
+    "me" : {
+      "tr" : "Ben bir Frontend Yazılımcısıyım...",
+      "en" :"I am a Frontend Developer..."
+    },
+    "about": {
+      "tr": "...Gelişim odaklı bir bakış açısına sahip, yeni beceriler edinmeye ve kendimi sürekli yeni zorluklarla geliştirmeye açık, gelecek vadeden bir full-stack yazılımcıyım.",
+      "en": "...Having a development-oriented perspective, seeking to acquire new skills and being open to constant new challenges, I am an up-and-coming full-stack developer."
+    }
+    ,
+    "dream": {
+      "tr" : "Gelişim odaklı bir bakış açısına sahip, yeni beceriler edinmeye ve kendimisürekli yeni zorluklarla geliştirmeye açık, gelecek vadeden bir full-stackgeliştiriciyim. 1 yıl boyunca I.T olarak çalıştıktan sonra, çocukluk hayalimigerçekleştirmeye karar vererek yazılım geliştirici olma yolunda adım attım.Front end, back end ve bilgisayar bilimi alanlarında kendimi geliştirmekamacıyla 6 ay süren yoğun Workintech full-stack geliştirme programınıtamamladım.",
+      "en" : "I have a development-oriented perspective, seeking to acquire new skills and being open to constant new challenges. I am an up-and-coming full-stack developer. After working for 1 year as an IT specialist, I decided to pursue my childhood dream and took steps towards becoming a software developer. To improve myself in front-end, back-end, and computer science, I completed an intensive 6-month full-stack development program at Workintech."
+    }
+  },
+  "skills": [
+    { "name": { "tr": "JavaScript", "en": "JavaScript" }, "icon": "../public/images/js.jpeg"},
+    { "name": { "tr": "Node.js", "en": "Node.js" }, "icon": "../public/images/node.jpeg" },
+    { "name": { "tr": "React", "en": "React" }, "icon": "../public/images/react.png" },
+    { "name": { "tr": "VS Code", "en": "VS Code" }, "icon": "../public/images/vscode.png" },
+    { "name": { "tr": "Redux", "en": "Redux" }, "icon": "../public/images/redux.png" },
+    { "name": { "tr": "Figma", "en": "Figma" }, "icon": "../public/images/figma.jpeg" }
+  ],
+  "projects": [
     {
-      "SiteSahibi": "Tahsin Can",
-      "age": 29,
-      "skills": [
-        {
-          "name": "JavaScript",
-          "icon": "fab fa-js"
-        },
-        {
-          "name": "Node.js",
-          "icon": "fab fa-node-js"
-        },
-        {
-          "name": "React",
-          "icon": "fab fa-react"
-        },
-        {
-          "name": "VS Code",
-          "icon": "fa-solid fa-code"
-        },
-        {
-          "name": "Redux",
-          "icon": "fab fa-reddit-alien"
-        },
-        {
-          "name": "Figma",
-          "icon": "fab fa-figma"
-        }
-      ],
-      "ProfilInfo": [
-        {
-      "DoğumTarihi" : "04.05.1995",
-      "Şehir": "istanbul",
-      "Eğitim" : "Afyon Kocatepe Üni.",
-      "Rol": "Frontend, UI"
-        }
+      "name": { "tr": "Workintech", "en": "Workintech" },
+      "description": { "tr": "Basit, özelleştirilebilir, minimal bir çerez eklentisi, kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu, vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, herhangi bir kod ve tema özelleştirmesinin yapılmasına olanak tanır.", "en": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible." },
+      "image": "../public/images/proje1.png",
+      "diller" : {
+        "dil1" : "react",
+        "dil2" : "redux",
+        "dil3" : "vercel"
+      },
+      "website" : "",
+      "github" : ""
 
-      ],
-      "baslikTr": "Ben bir Frontend Developerim...",
-      "aciklamaTr": "...mükemmel kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir ön uç ürünleri oluşturmayı seven kişi.",
-      "baslikeng": "I am a Frontend Developer...",
-      "aciklamaEng": "...who likes to craft solid and scalable frontend products with great user experiences.",
-      "profilTr" : "Profil",
-      "profilEng": "Profile",
-      "profileh1Tr":"Temel Bilgiler",
-      "profileh1Eng":"basic information",
-      "hakkımdaTr" :"hakkımda",
-      "hakkımdaBenTr": "Gelişim odaklı bir bakış açısına sahip, yeni beceriler edinmeye ve kendimi sürekli yeni zorluklarla geliştirmeye açık, gelecek vadeden bir full-stack geliştiriciyim. 1 yıl boyunca I.T olarak çalıştıktan sonra, çocukluk hayalimi gerçekleştirmeye karar vererek yazılım geliştirici olma yolunda adım attım. Front end, back end ve bilgisayar bilimi alanlarında kendimi geliştirmek amacıyla 6 ay süren yoğun Workintech full-stack geliştirme programını tamamladım.",
-      "hakkımdaEng": "Having a development-oriented perspective, seeking to acquire new skills and being open to constant new challenges, I am an up-and-coming full-stack developer. After working as an IT officer for 1 year, I decided to pursue my childhood dream and took steps towards becoming a software developer. To improve myself in the fields of front end, back end, and computer science, I completed the 6-month intensive Workintech full-stack development program.",
-      "hakkımdaBenEng" : "About Me",
-      "Projectsh1Tr" : "Projeler",
-      "Projectsh1Eng" : "Projects",
-      "Projects": [
-        {
-          "id": 1,
-          "name": "Örnek Proje1",
-          "description": "Örnek proje Hakkında",
-          "image": "/resimler/ornek.png"
-        },
-        {
-          "id": 2,
-          "name": "Örnek Proje2",
-          "description": "Örnek proje Hakkında",
-          "image": "/images/ornek.png"
-        }
-      ]
+    },
+    {
+      "name": { "tr": "Seyahat", "en": "Journey" },
+      "description": { "tr": "Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal bir çerez eklentisi. Bu, vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, kod ve tema üzerinde her türlü özelleştirme yapmanıza imkan tanır.", "en": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible." },
+      "image": "../public/images/proje2.png",
+      "diller" : {
+        "dil1" : "react",
+        "dil2" : "redux",
+        "dil3" : "vercel"
+      },
+      "website" : "",
+      "github" : ""
 
     }
-  ]
+  ],
+  "footer": {
+    "contact": {
+      "message": {
+        "tr": "Bir sorunuz veya öneriniz varsa yada sadece merhaba demek için devam edin.",
+        "en": "Got a question or proposal, or just want to say hello? Go ahead."
+      }
+    },
+    "socialMedia": {
+      "twitter": "fab fa-twitter",
+      "instagram": "fab fa-instagram",
+      "email": "fas fa-at"
+    }
+  }
 }
