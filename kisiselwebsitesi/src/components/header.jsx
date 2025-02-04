@@ -48,7 +48,7 @@ const Header = () => {
     <img 
   src="../public/images/ornek.png"
   alt="Örnek Resim" 
-  className="fixed top-20 left-[calc(50%+260px)] transform -translate-x-1/2 w-50 h-50 rounded"
+  className="absolute top-20 left-[calc(50%+260px)] transform -translate-x-1/2 w-50 h-50 rounded"
 />
 
 <p className="text-3 font-semibold text-gray-900 dark:text-white max-w-[600px] break-words block pl-10 mt-5">
