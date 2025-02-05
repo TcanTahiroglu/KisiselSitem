@@ -27,7 +27,7 @@ const Profile = () => {
   <img
     src={profileData.foto}
     alt="Profile"
-    className="w-100 h-100 object-cover mr-40"
+    className="w-100 h-100 object-cover mr-40    "
   />
 </div>
 
