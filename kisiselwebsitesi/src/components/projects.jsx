@@ -7,8 +7,8 @@ const Projects = () => {
   const projects = data.projects;
 
   return (
-    <section className="px-4 md:px-8" style={{ backgroundColor: "#c8e200" }}>
-      <h1 className="text-3xl font-bold mb-6" style={{ color: "#322ebd" }}>{language === 'tr' ? 'Projeler' : 'Projects'}</h1>
+    <section className="px-4 md:px-8 pb-8" style={{ backgroundColor: "#c8e200" }}>
+      <h1 className="text-3xl font-bold mb-8" style={{ color: "#322ebd" }}>{language === 'tr' ? 'Projeler' : 'Projects'}</h1>
       <div className="space-y-8">
         {projects.map((project, index) => (
           <div 

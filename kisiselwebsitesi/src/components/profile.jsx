@@ -12,14 +12,14 @@ const Profile = () => {
       <h1 className="text-3xl font-bold mb-4" style={{ color: "#c8e200" }}>
   {language === 'tr' ? 'Profil' : 'Profile'}
 </h1>
-<h2 className="text-2xl font-semibold mb-4">
+<h2 className="text-2xl font-semibold mb-4 text-white">
   {language === 'tr' ? 'Temel Bilgiler' : 'Basic Information'}
 </h2>
 <ul className="mb-4">
-  <li><span className="text-[#c8e200]">{language === 'tr' ? 'Doğum Tarihi:' : 'Birth Date:'}</span> {profileData.birthDate}</li>
-  <li><span className="text-[#c8e200]">{language === 'tr' ? 'Şehir:' : 'City:'}</span> {profileData.city}</li>
-  <li><span className="text-[#c8e200]">{language === 'tr' ? 'Eğitim:' : 'Education:'}</span> {profileData.education}</li>
-  <li><span className="text-[#c8e200]">{language === 'tr' ? 'Rol:' : 'Role:'}</span> {profileData.role}</li>
+  <li className='text-white'><span className="text-[#c8e200]">{language === 'tr' ? 'Doğum Tarihi:' : 'Birth Date:'}</span> {profileData.birthDate}</li>
+  <li  className='text-white'><span className="text-[#c8e200]">{language === 'tr' ? 'Şehir:' : 'City:'}</span> {profileData.city}</li>
+  <li className='text-white'><span className="text-[#c8e200]">{language === 'tr' ? 'Eğitim:' : 'Education:'}</span> {profileData.education}</li>
+  <li className='text-white'><span className="text-[#c8e200]">{language === 'tr' ? 'Rol:' : 'Role:'}</span> {profileData.role}</li>
 </ul>
 
 </div>
@@ -32,10 +32,10 @@ const Profile = () => {
 </div>
 
 <div>
-<h2 className="text-3xl font-bold mb-4">
+<h2 className="text-3xl text-white font-bold mb-4">
   {language === 'tr' ? 'Hakkımda' : 'About Me'}
 </h2>
-<p className="text-base text-justify max-w-150 break-words">
+<p className="text-base text-white text-justify max-w-150 break-words">
   {language === 'tr' ? profileData.dream.tr : profileData.dream.en}
 </p>
       </div>

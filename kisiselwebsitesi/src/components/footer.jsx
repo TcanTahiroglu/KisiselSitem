@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <h1 className="text-2xl font-semibold mb-4" style={{ color: "#322ebd" }}>
-        {language === 'tr' ? 'Bana mesaj yolla!..' : 'Send me a message!..'}
+        {language === 'tr' ? 'Bana mesaj yolla!' : 'Send me a message!'}
       </h1>
       <h3>{language === 'tr' ? footerData.contact.message.tr : footerData.contact.message.en}</h3>
       <div>
