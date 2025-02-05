@@ -12,7 +12,7 @@ const Header = () => {
   <div className="flex justify-between items-center mb-4">
   <div >{data.profile.name}</div>
     <span 
-      onClick={() => setLanguage(language === 'tr' ? 'en' : 'tr')} 
+      onClick={() => setLanguage(language === 'tr' ? 'en' : 'tr')}              //dil seçeneği
       className="cursor-pointer text-lg text-gray-900 dark:text-white pl-175 text-s"
     >
       {language === 'tr' ? 'İngilizce' : 'Türkçe'}
@@ -28,7 +28,7 @@ const Header = () => {
     className={`relative inline-block w-8 h-4 transition-all duration-300 ease-in-out ${
       theme === 'dark' ? 'bg-blue-600' : 'bg-gray-400'
     } rounded-full`}
-    onClick={toggleTheme}
+    onClick={toggleTheme}                                                                         //tema seçeneği
   >
     <span
       className={`absolute left-0.5 top-0.5 w-3 h-3 rounded-full transition-all duration-300 ease-in-out ${
