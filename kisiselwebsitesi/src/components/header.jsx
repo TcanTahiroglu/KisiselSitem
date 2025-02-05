@@ -46,7 +46,7 @@ const Header = () => {
       {language === 'tr' ? data.profile.me.tr : data.profile.me.en}
     </h1>
     <img 
-  src="../public/images/ornek.png"
+  src="/images/ornek.png"
   alt="Örnek Resim" 
   className="absolute top-20 left-[calc(50%+260px)] transform -translate-x-1/2 w-50 h-50 rounded"
 />

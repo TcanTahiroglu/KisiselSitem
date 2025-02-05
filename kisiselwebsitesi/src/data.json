@@ -28,7 +28,7 @@
     { "name": { "tr": "React", "en": "React" }, "icon": "/images/react.png" },
     { "name": { "tr": "VS Code", "en": "VS Code" }, "icon": "/images/vscode.png" },
     { "name": { "tr": "Redux", "en": "Redux" }, "icon": "/images/redux.png" },
-    { "name": { "tr": "Figma", "en": "Figma" }, "icon": "/images/figma.jpeg" }
+    { "name": { "tr": "Figma", "en": "Figma" }, "icon": "/images/figma.jpeg   " }
   ],
   "projects": [
     {
