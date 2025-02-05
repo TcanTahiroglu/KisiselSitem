@@ -7,7 +7,7 @@
     "city": "İstanbul",
     "education": "Afyon Kocatepe Üni.",
     "role": "Frontend, UI",
-    "foto" : "../public/images/profile.png",
+    "foto" : "/images/profile.png",
     "me" : {
       "tr" : "Ben bir Frontend Yazılımcısıyım...",
       "en" :"I am a Frontend Developer..."
