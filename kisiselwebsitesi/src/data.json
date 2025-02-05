@@ -23,18 +23,18 @@
     }
   },
   "skills": [
-    { "name": { "tr": "JavaScript", "en": "JavaScript" }, "icon": "../public/images/js.jpeg"},
-    { "name": { "tr": "Node.js", "en": "Node.js" }, "icon": "../public/images/node.jpeg" },
-    { "name": { "tr": "React", "en": "React" }, "icon": "../public/images/react.png" },
-    { "name": { "tr": "VS Code", "en": "VS Code" }, "icon": "../public/images/vscode.png" },
-    { "name": { "tr": "Redux", "en": "Redux" }, "icon": "../public/images/redux.png" },
-    { "name": { "tr": "Figma", "en": "Figma" }, "icon": "../public/images/figma.jpeg" }
+    { "name": { "tr": "JavaScript", "en": "JavaScript" }, "icon": "/images/js.jpeg"},
+    { "name": { "tr": "Node.js", "en": "Node.js" }, "icon": "/images/node.jpeg" },
+    { "name": { "tr": "React", "en": "React" }, "icon": "/images/react.png" },
+    { "name": { "tr": "VS Code", "en": "VS Code" }, "icon": "/images/vscode.png" },
+    { "name": { "tr": "Redux", "en": "Redux" }, "icon": "/images/redux.png" },
+    { "name": { "tr": "Figma", "en": "Figma" }, "icon": "/images/figma.jpeg" }
   ],
   "projects": [
     {
       "name": { "tr": "Workintech", "en": "Workintech" },
       "description": { "tr": "Basit, özelleştirilebilir, minimal bir çerez eklentisi, kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu, vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, herhangi bir kod ve tema özelleştirmesinin yapılmasına olanak tanır.", "en": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible." },
-      "image": "../public/images/proje1.png",
+      "image": "/images/proje1.png",
       "diller" : {
         "dil1" : "react",
         "dil2" : "redux",
@@ -47,7 +47,7 @@
     {
       "name": { "tr": "Seyahat", "en": "Journey" },
       "description": { "tr": "Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal bir çerez eklentisi. Bu, vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Git deposu, kod ve tema üzerinde her türlü özelleştirme yapmanıza imkan tanır.", "en": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible." },
-      "image": "../public/images/proje2.png",
+      "image": "/images/proje2.png",
       "diller" : {
         "dil1" : "react",
         "dil2" : "redux",
